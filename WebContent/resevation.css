@@ -1,0 +1,41 @@
+@charset "UTF-8";
+body{
+	text-align :center;
+	background-color:lightGreen;
+}
+table{
+	margin-left:auto;
+	margin-right:auto;
+	border:1px solid;
+}
+table td,table th{
+	border:1px solod;
+}
+table.noborder{
+	margin-left:auto;
+	margin-right:auto;
+	text-align:left;
+	border:0px solid;
+	border-spacing:1em 0em;
+}
+table.noborder td,table.noborder th{
+	border:0px solid;
+}
+
+td input{
+	color:white;
+	background-color:green;
+}
+td input:disabled {
+	background-color:darkRed;
+}
+
+form.inline{
+	display:inline;
+}
+
+
+
+
+
+
